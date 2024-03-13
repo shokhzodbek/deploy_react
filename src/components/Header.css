@@ -1,0 +1,118 @@
+.header {
+  height: 80px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header button {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  background-color: rgb(232, 123, 123);
+  display: flex;
+  font-size: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border-radius: 5px;
+}
+.header button span {
+  margin-right: 2px;
+}
+.container-menu {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  background-color: aqua;
+  transition: all 5s ease-in-out;
+  top: 60px;
+
+  z-index: 30;
+  left: 0;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+.box {
+  background-color: bisque;
+}
+.input-search {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  width: 500px;
+  border-radius: 3px;
+  margin-left: 20px;
+  background-color: #fff;
+  position: relative;
+}
+.input-search input {
+  width: 94%;
+  border: none;
+  outline: none;
+}
+.input-search input::placeholder {
+  font-size: 12px;
+}
+.search-icon {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 3px;
+  font-weight: 900;
+  font-size: 16px;
+  color: #fff;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+.container-grid ul li {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.input-block {
+  width: 100%;
+
+  /* background-color: red; */
+  background-color: white;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+.search-product {
+  display: flex;
+  align-items: center;
+  color: black;
+  border-bottom: 1px solid lightgray;
+  padding: 4px 10px;
+}
